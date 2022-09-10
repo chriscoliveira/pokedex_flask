@@ -1,0 +1,21 @@
+<form action="buscar" method="POST">
+    <h2>Busca API Pokemon</h2>
+    <input placeholder="Buscar Pokemon" name="nome" type="text">
+    <button type="submit" name="buscar">Buscar</button>
+    <table border="0" >
+        <tr>
+            <td align="center" colspan="2"><h3>{{nome}}</h3></td>
+        </tr>
+        <tr><td colspan="2" align="center"> <img src={{foto}} name="img_pokemon" height="150"><img src={{foto1}} name="img_pokemon" height="150"></td></tr>
+        <tr><td>Id</td><td>{{id}}</td></tr>
+        <tr><td>Tipo</td><td>{{tipo}}</td></tr>
+        <tr><td>Peso</td><td>{{peso}}</td></tr>
+        <tr><td>Formas</td><td>{{formas}}</td></tr>
+        <tr><td>Localização</td><td>{{local}}</td></tr>
+        <tr><td>Status</td><td>{{status}}</td></tr>
+        <tr><td>Habilidades</td><td>{{habilidades}}</td></tr>
+        <tr><td>Golpes</td><td>{{movimentos}}</td></tr>
+    </table>
+    
+    
+</form>
